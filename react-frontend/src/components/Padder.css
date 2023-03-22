@@ -1,0 +1,11 @@
+.padder {
+    display: block;
+    width: 5vw;
+}
+
+@media screen and (max-width:600px) {
+    .padder {
+        width: 0px;
+        height: 5vh;
+    }
+}

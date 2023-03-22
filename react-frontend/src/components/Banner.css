@@ -1,0 +1,30 @@
+.banner {
+    width: 90vw;
+    color: aliceblue;
+    margin-left: 5vw;
+    margin-top: 5vh;
+    min-height: 5vh;
+    border: 2px solid var(--blurcolor);
+    box-shadow: 5px 5px 5px var(--blurcolor), -5px 5px 5px var(--blurcolor), 0px -5px 5px var(--blurcolor);
+    background-color: var(--boxbgcolor);
+    backdrop-filter: blur(20px);
+    transform: perspective(500px);
+    transform-style: preserve-3d;
+    border-radius: 50px;
+    text-align: center;
+    justify-content: center;
+}
+
+.linker {
+    display: inline-block;
+    background-color: aliceblue;
+    border-radius: 50px;
+    padding: 5px;
+    margin: 5px;
+    text-decoration: none;
+}
+
+.embedder {
+    width: 70vw;
+    margin-left: 10vw;
+}

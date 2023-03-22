@@ -1,0 +1,36 @@
+.searchbar {
+    border: none;
+    padding: 5px;
+}
+
+.searchbar input {
+    width: 150px;
+}
+
+.searchbar .dropdownlist {
+    max-width: 150px;
+    overflow-x: scroll;
+    overflow-y: auto;
+    max-height: 300px;
+    position: absolute;
+    z-index: 1;
+    background-color: var(--bgcolor);
+}
+
+.searchbar .dropdownlist div option {
+    color: azure;
+}
+
+.searchbar .dropdownlist.hidden {
+    display: none;
+}
+
+@media screen and (max-width:450px) {
+    .searchbar input {
+        width: 100px;
+    }
+
+    .searchbar .dropdownlist{
+        max-width: 100px;
+    }
+}

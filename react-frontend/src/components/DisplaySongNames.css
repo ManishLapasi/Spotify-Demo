@@ -1,0 +1,33 @@
+.boxed {
+    display: inline-block;
+    min-width: 90vw;
+    min-height: 20vh;
+    margin-left: 5vw;
+    margin-top: 5vh;
+    border-radius: 50px;
+    border: 2px solid var(--blurcolor);
+    box-shadow: 5px 5px 5px var(--blurcolor), -5px 5px 5px var(--blurcolor), 0px -5px 5px var(--blurcolor);
+    background-color: var(--boxbgcolor);
+}
+
+.boxed ul {
+    margin-left: -1vw; 
+}
+
+.boxed li {
+    display: inline-block;
+    background-color: aliceblue;
+    border-radius: 50px;
+    padding: 5px;
+    margin: 5px;
+}
+
+.listItem a {
+    text-decoration: none;
+}
+
+@media screen and (max-width:800px) {
+    .boxed {
+        width: 90vw;
+    }
+}
